@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960868DA25314EA900351C8B /* ZLCeilingFanLowCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 960868D925314EA900351C8B /* ZLCeilingFanLowCommand.m */; };
+		960868DD253151A200351C8B /* ZLCeilingFanOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 960868DC253151A200351C8B /* ZLCeilingFanOffCommand.m */; };
+		96456897252089830081FB9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96456896252089830081FB9E /* main.m */; };
+		964568A025208AD30081FB9E /* ZLLiggtOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9645689F25208AD30081FB9E /* ZLLiggtOnCommand.m */; };
+		964568A325208B310081FB9E /* ZLLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568A225208B310081FB9E /* ZLLight.m */; };
+		964568A625208CC50081FB9E /* ZLSimpleRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568A525208CC50081FB9E /* ZLSimpleRemoteControl.m */; };
+		964568A925208F6E0081FB9E /* ZLRemoteControlTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568A825208F6E0081FB9E /* ZLRemoteControlTest.m */; };
+		964568AC252093E20081FB9E /* ZLGarageDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568AB252093E20081FB9E /* ZLGarageDoor.m */; };
+		964568AF252094E60081FB9E /* ZLGarageDoorOpenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568AE252094E60081FB9E /* ZLGarageDoorOpenCommand.m */; };
+		964568B2252FF89A0081FB9E /* ZLRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568B1252FF89A0081FB9E /* ZLRemoteControl.m */; };
+		964568B5252FFF2B0081FB9E /* ZLLightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568B4252FFF2B0081FB9E /* ZLLightOffCommand.m */; };
+		964568BA253002130081FB9E /* ZLStereo.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568B9253002130081FB9E /* ZLStereo.m */; };
+		964568BD253003740081FB9E /* ZLStereoOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568BC253003740081FB9E /* ZLStereoOnCommand.m */; };
+		964568C025300B0D0081FB9E /* ZLStereoOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568BF25300B0D0081FB9E /* ZLStereoOffCommand.m */; };
+		964568C3253010F40081FB9E /* ZLCeilingFan.m in Sources */ = {isa = PBXBuildFile; fileRef = 964568C2253010F40081FB9E /* ZLCeilingFan.m */; };
+		969DEE1025314AF100CB6C21 /* ZLCellingFanHighCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 969DEE0F25314AF100CB6C21 /* ZLCellingFanHighCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96456891252089830081FB9E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		960868D825314EA900351C8B /* ZLCeilingFanLowCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCeilingFanLowCommand.h; sourceTree = "<group>"; };
+		960868D925314EA900351C8B /* ZLCeilingFanLowCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCeilingFanLowCommand.m; sourceTree = "<group>"; };
+		960868DB253151A200351C8B /* ZLCeilingFanOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCeilingFanOffCommand.h; sourceTree = "<group>"; };
+		960868DC253151A200351C8B /* ZLCeilingFanOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCeilingFanOffCommand.m; sourceTree = "<group>"; };
+		96456893252089830081FB9E /* ZLCommand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZLCommand; sourceTree = BUILT_PRODUCTS_DIR; };
+		96456896252089830081FB9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9645689D25208AA50081FB9E /* ZLCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCommand.h; sourceTree = "<group>"; };
+		9645689E25208AD30081FB9E /* ZLLiggtOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLLiggtOnCommand.h; sourceTree = "<group>"; };
+		9645689F25208AD30081FB9E /* ZLLiggtOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLLiggtOnCommand.m; sourceTree = "<group>"; };
+		964568A125208B310081FB9E /* ZLLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLLight.h; sourceTree = "<group>"; };
+		964568A225208B310081FB9E /* ZLLight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLLight.m; sourceTree = "<group>"; };
+		964568A425208CC50081FB9E /* ZLSimpleRemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSimpleRemoteControl.h; sourceTree = "<group>"; };
+		964568A525208CC50081FB9E /* ZLSimpleRemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSimpleRemoteControl.m; sourceTree = "<group>"; };
+		964568A725208F6E0081FB9E /* ZLRemoteControlTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLRemoteControlTest.h; sourceTree = "<group>"; };
+		964568A825208F6E0081FB9E /* ZLRemoteControlTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLRemoteControlTest.m; sourceTree = "<group>"; };
+		964568AA252093E20081FB9E /* ZLGarageDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLGarageDoor.h; sourceTree = "<group>"; };
+		964568AB252093E20081FB9E /* ZLGarageDoor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLGarageDoor.m; sourceTree = "<group>"; };
+		964568AD252094E60081FB9E /* ZLGarageDoorOpenCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLGarageDoorOpenCommand.h; sourceTree = "<group>"; };
+		964568AE252094E60081FB9E /* ZLGarageDoorOpenCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLGarageDoorOpenCommand.m; sourceTree = "<group>"; };
+		964568B0252FF89A0081FB9E /* ZLRemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLRemoteControl.h; sourceTree = "<group>"; };
+		964568B1252FF89A0081FB9E /* ZLRemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLRemoteControl.m; sourceTree = "<group>"; };
+		964568B3252FFF2B0081FB9E /* ZLLightOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLLightOffCommand.h; sourceTree = "<group>"; };
+		964568B4252FFF2B0081FB9E /* ZLLightOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLLightOffCommand.m; sourceTree = "<group>"; };
+		964568B8253002130081FB9E /* ZLStereo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLStereo.h; sourceTree = "<group>"; };
+		964568B9253002130081FB9E /* ZLStereo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLStereo.m; sourceTree = "<group>"; };
+		964568BB253003740081FB9E /* ZLStereoOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLStereoOnCommand.h; sourceTree = "<group>"; };
+		964568BC253003740081FB9E /* ZLStereoOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLStereoOnCommand.m; sourceTree = "<group>"; };
+		964568BE25300B0D0081FB9E /* ZLStereoOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLStereoOffCommand.h; sourceTree = "<group>"; };
+		964568BF25300B0D0081FB9E /* ZLStereoOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLStereoOffCommand.m; sourceTree = "<group>"; };
+		964568C1253010F40081FB9E /* ZLCeilingFan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCeilingFan.h; sourceTree = "<group>"; };
+		964568C2253010F40081FB9E /* ZLCeilingFan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCeilingFan.m; sourceTree = "<group>"; };
+		969DEE0E25314AF100CB6C21 /* ZLCellingFanHighCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCellingFanHighCommand.h; sourceTree = "<group>"; };
+		969DEE0F25314AF100CB6C21 /* ZLCellingFanHighCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCellingFanHighCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96456890252089830081FB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9645688A252089830081FB9E = {
+			isa = PBXGroup;
+			children = (
+				96456895252089830081FB9E /* ZLCommand */,
+				96456894252089830081FB9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96456894252089830081FB9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96456893252089830081FB9E /* ZLCommand */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96456895252089830081FB9E /* ZLCommand */ = {
+			isa = PBXGroup;
+			children = (
+				964568B7253000160081FB9E /* Receiver */,
+				964568B6252FFFF80081FB9E /* Command */,
+				96456896252089830081FB9E /* main.m */,
+				9645689D25208AA50081FB9E /* ZLCommand.h */,
+				964568B0252FF89A0081FB9E /* ZLRemoteControl.h */,
+				964568B1252FF89A0081FB9E /* ZLRemoteControl.m */,
+				964568A725208F6E0081FB9E /* ZLRemoteControlTest.h */,
+				964568A825208F6E0081FB9E /* ZLRemoteControlTest.m */,
+				964568A425208CC50081FB9E /* ZLSimpleRemoteControl.h */,
+				964568A525208CC50081FB9E /* ZLSimpleRemoteControl.m */,
+			);
+			path = ZLCommand;
+			sourceTree = "<group>";
+		};
+		964568B6252FFFF80081FB9E /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				964568AD252094E60081FB9E /* ZLGarageDoorOpenCommand.h */,
+				964568AE252094E60081FB9E /* ZLGarageDoorOpenCommand.m */,
+				9645689E25208AD30081FB9E /* ZLLiggtOnCommand.h */,
+				9645689F25208AD30081FB9E /* ZLLiggtOnCommand.m */,
+				964568B3252FFF2B0081FB9E /* ZLLightOffCommand.h */,
+				964568B4252FFF2B0081FB9E /* ZLLightOffCommand.m */,
+				964568BB253003740081FB9E /* ZLStereoOnCommand.h */,
+				964568BC253003740081FB9E /* ZLStereoOnCommand.m */,
+				964568BE25300B0D0081FB9E /* ZLStereoOffCommand.h */,
+				964568BF25300B0D0081FB9E /* ZLStereoOffCommand.m */,
+				969DEE0E25314AF100CB6C21 /* ZLCellingFanHighCommand.h */,
+				969DEE0F25314AF100CB6C21 /* ZLCellingFanHighCommand.m */,
+				960868D825314EA900351C8B /* ZLCeilingFanLowCommand.h */,
+				960868D925314EA900351C8B /* ZLCeilingFanLowCommand.m */,
+				960868DB253151A200351C8B /* ZLCeilingFanOffCommand.h */,
+				960868DC253151A200351C8B /* ZLCeilingFanOffCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		964568B7253000160081FB9E /* Receiver */ = {
+			isa = PBXGroup;
+			children = (
+				964568AA252093E20081FB9E /* ZLGarageDoor.h */,
+				964568AB252093E20081FB9E /* ZLGarageDoor.m */,
+				964568A125208B310081FB9E /* ZLLight.h */,
+				964568A225208B310081FB9E /* ZLLight.m */,
+				964568B8253002130081FB9E /* ZLStereo.h */,
+				964568B9253002130081FB9E /* ZLStereo.m */,
+				964568C1253010F40081FB9E /* ZLCeilingFan.h */,
+				964568C2253010F40081FB9E /* ZLCeilingFan.m */,
+			);
+			path = Receiver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96456892252089830081FB9E /* ZLCommand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9645689A252089830081FB9E /* Build configuration list for PBXNativeTarget "ZLCommand" */;
+			buildPhases = (
+				9645688F252089830081FB9E /* Sources */,
+				96456890252089830081FB9E /* Frameworks */,
+				96456891252089830081FB9E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLCommand;
+			productName = ZLCommand;
+			productReference = 96456893252089830081FB9E /* ZLCommand */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9645688B252089830081FB9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = DingTalk;
+				TargetAttributes = {
+					96456892252089830081FB9E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 9645688E252089830081FB9E /* Build configuration list for PBXProject "ZLCommand" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9645688A252089830081FB9E;
+			productRefGroup = 96456894252089830081FB9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96456892252089830081FB9E /* ZLCommand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9645688F252089830081FB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964568AC252093E20081FB9E /* ZLGarageDoor.m in Sources */,
+				964568BA253002130081FB9E /* ZLStereo.m in Sources */,
+				969DEE1025314AF100CB6C21 /* ZLCellingFanHighCommand.m in Sources */,
+				960868DD253151A200351C8B /* ZLCeilingFanOffCommand.m in Sources */,
+				964568A925208F6E0081FB9E /* ZLRemoteControlTest.m in Sources */,
+				964568A325208B310081FB9E /* ZLLight.m in Sources */,
+				964568B5252FFF2B0081FB9E /* ZLLightOffCommand.m in Sources */,
+				964568C025300B0D0081FB9E /* ZLStereoOffCommand.m in Sources */,
+				964568A025208AD30081FB9E /* ZLLiggtOnCommand.m in Sources */,
+				96456897252089830081FB9E /* main.m in Sources */,
+				964568C3253010F40081FB9E /* ZLCeilingFan.m in Sources */,
+				960868DA25314EA900351C8B /* ZLCeilingFanLowCommand.m in Sources */,
+				964568BD253003740081FB9E /* ZLStereoOnCommand.m in Sources */,
+				964568AF252094E60081FB9E /* ZLGarageDoorOpenCommand.m in Sources */,
+				964568A625208CC50081FB9E /* ZLSimpleRemoteControl.m in Sources */,
+				964568B2252FF89A0081FB9E /* ZLRemoteControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96456898252089830081FB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96456899252089830081FB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9645689B252089830081FB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9645689C252089830081FB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9645688E252089830081FB9E /* Build configuration list for PBXProject "ZLCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96456898252089830081FB9E /* Debug */,
+				96456899252089830081FB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9645689A252089830081FB9E /* Build configuration list for PBXNativeTarget "ZLCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9645689B252089830081FB9E /* Debug */,
+				9645689C252089830081FB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9645688B252089830081FB9E /* Project object */;
+}
